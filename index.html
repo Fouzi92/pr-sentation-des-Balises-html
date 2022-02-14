@@ -9,8 +9,10 @@
     <link rel="shorcut icon" href="./media-htlm/logo-htlm.png" />
   </head>
   <body>
-    <!------------------------------>
+    <!------------------------------------------Les titres-------------------------------------------->
     <h1 id="titre1">Les Balises</h1>
+    <h2>Les titres</h2>
+
     <div class="titre">
       <h1>Allez Paris SG</h1>
       <h2>Allez Paris SG</h2>
@@ -20,12 +22,17 @@
       <h6>Allez Paris SG</h6>
     </div>
 
+    <!-----------------------------------------Les paragraphe------------------------------------------->
+    <h2>paragraphe</h2>
     <div class="paragraphe">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur a
       laudantium cumque, maxime reiciendis qui earum consequatur accusantium
       quos laborum nesciunt fugiat iste dolorum soluta ducimus velit, officiis
       quo tempore.
     </div>
+
+    <!------------------------------------------Les lien-------------------------------------------->
+    <h2>Les Liens</h2>
     <div class="lien">
       <a href="https://www.psg.fr/" target="_blank">ICI</a>
       <a
@@ -38,6 +45,7 @@
         target="_blank"
         >ICI</a
       >
+      <!------------------------------------------Les Photos-------------------------------------------->
     </div>
     <div class="image">
       <h2>Les images</h2>
@@ -47,6 +55,7 @@
         alt="Paris la nuit"
       />
     </div>
+    <!------------------------------------------Div et SPAN-------------------------------------------->
     <h2>Div</h2>
     <div class="test">
       <p>
@@ -94,5 +103,64 @@
       </table>
     </div>
     <script src=""></script>
+
+    <!----------------------------------------Les listes à puces--------------------------------------------->
+
+    <div class="liste">
+      <h2>Les listes à puces</h2>
+      <ul>
+        <li>HTLM</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>PHP</li>
+        <li>Python</li>
+      </ul>
+      <ol>
+        <li>C</li>
+        <li>C++</li>
+        <li>Ruby</li>
+        <li>NodeJs</li>
+        <li>Perl</li>
+      </ol>
+    </div>
+
+    <!------------------------------------Formulaire---------------------------------------------------->
+    
+  <form action="action.php">
+    <h2> <span>&#10002;</span> Les formulaire en HTLM</h2>
+      <div><label for="name">Nom </label><input id="name" type="Coucou" placeholder="Eric"></div>
+      <label for="Age">Votre Age</label> <input id="age" type="number" min="0" max="50" value="18"><br>
+      <!--Imput Select-->
+      <div> <label for="gender">genre</label> <select name="" id="gender">
+            <option selected value="Homme">Homme</option>
+      <option value="Femme">Femme</option></select>
+      </div> <br>
+      <!-- Imput RADIO-->
+      <div>
+      <input type="radio" name="Race" checked id="human">
+      <label for="human">Humain</label>
+     
+      <input type="radio" name="Race" id="dog">
+      <label for="dog">Chien</label>
+     
+      <input type="radio" name="Race" id="Cat">
+      <label for="Cat">Chat</label>
+      </div> <br>
+
+      <div>
+      <textarea name="" id="" cols="30" rows="10" placeholder="Il veut quoi ?... bah voyons"></textarea> <br>
+      </div>
+      
+     <!--Imput Checkbox-->
+     <div>
+       <label"> <input type="Checkbox" /> lol </label>
+       <input type="submit" value="Valide Gros">
+     
+     </div>
+  </form>
+  
+  
+  
+  
   </body>
 </html>
